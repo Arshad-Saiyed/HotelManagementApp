@@ -1,9 +1,10 @@
 package com.arshad.project.hotelManagementApp.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -14,8 +15,11 @@ import java.time.LocalDateTime;
         name = "inventory",
         uniqueConstraints = @UniqueConstraint(name = "unique_hotel_room_date", columnNames = { "hotel_id", "room_id", "date"})
 )
+@Builder
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Inventory {
 
     @Id
@@ -28,6 +32,7 @@ public class Inventory {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "room_id",nullable = false)
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Room room;
 
     @Column(nullable = false)

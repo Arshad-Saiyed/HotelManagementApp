@@ -5,8 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.BitSet;
 
 @Entity
 @Table(name = "room")
@@ -18,7 +18,7 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "hotel_id", nullable = false)
     private Hotel hotel;
 
@@ -26,7 +26,7 @@ public class Room {
     private String roomType;
 
     @Column(nullable = false, precision = 10, scale = 2)
-    private BitSet basePrice;
+    private BigDecimal basePrice;
 
     @Column(nullable = false)
     private Integer totalCount;

@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cb19e4-0fad-4946-95bc-7c754669927d" name="Changes" comment="" />
+    <list default="true" id="27cb19e4-0fad-4946-95bc-7c754669927d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/advice/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/advice/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/advice/GlobalResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/config/MapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/controller/HotelAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/controller/RoomAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/dto/HotelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/dto/RoomDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/exception/ResourceNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/repository/HotelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/repository/RoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/HotelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/service/RoomServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Guest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Guest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/HotelContactInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/HotelContactInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arshad/project/hotelManagementApp/entity/User.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +50,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Hotel.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/Room.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/arshad/project/hotelManagementApp/entity/User.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -45,25 +90,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.HotelManagementAppApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/arshadsaiyed/Documents/Dev/Projects/HotelManagementApp/hotelManagementApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.hotelManagementApp [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotelManagementApp [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HotelManagementAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/arshadsaiyed/Documents/Dev/Projects/HotelManagementApp/hotelManagementApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="HotelManagementAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hotelManagementApp" />
@@ -92,10 +147,34 @@
       <workItem from="1734885397630" duration="6319000" />
       <workItem from="1734970733746" duration="6813000" />
       <workItem from="1735473541867" duration="652000" />
+      <workItem from="1735474789543" duration="864000" />
+      <workItem from="1735475659217" duration="53000" />
+      <workItem from="1735475787287" duration="668000" />
+      <workItem from="1735476467460" duration="12030000" />
+      <workItem from="1735574699214" duration="2150000" />
+      <workItem from="1735577472140" duration="2165000" />
+      <workItem from="1735996500847" duration="9476000" />
+      <workItem from="1736090526636" duration="3457000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
